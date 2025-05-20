@@ -1,0 +1,19 @@
+.btn { 
+width: 100px; 
+height: 50px; 
+border: 1px solid transparent; 
+color: white; 
+background-color: rgb(4, 191, 35); 
+border-radius: 4px; 
+box-shadow: inset 0000 #f9e506; 
+transition: ease-out 0.3s; 
+font-size: 1rem; 
+outline: none; 
+} 
+
+.btn:hover { 
+box-shadow: inset 101px 000 #ffffff; 
+border-color: rgb(0, 255, 42);
+cursor: pointer; 
+color: #000; 
+}
