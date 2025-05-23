@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact Us - MedCare Pharmacy</title>
 </head>
+
 <body>
-    
+    <header class="px-3 py-4 md:px-10 md:py-4 flex justify-between items-center bg-blue-500/30 backdrop-blur-md">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="Home.html" class="text-xl md:text-2xl font-bold text-blue-800">MedCare Pharmacy</a>
+            <div class="flex space-x-4">
+                <a class="px-2 py-1 text-xs md:px-5 md:py-2 md:text-base bg-blue-500 hover:bg-blue-700 text-white rounded-lg transition duration-300 inline-block"
+                    href="Home.html">Home</a>
+                <a class="px-2 py-1 text-xs md:px-5 md:py-2 md:text-base bg-blue-500 hover:bg-blue-700 text-white rounded-lg transition duration-300 inline-block"
+                    href="Order.html">Order Medicines</a>
+                <a class="px-2 py-1 text-xs md:px-5 md:py-2 md:text-base bg-blue-500 hover:bg-blue-700 text-white rounded-lg transition duration-300 inline-block"
+                    href="ContactUs.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-5 md:p-10">
+        <h1 class="text-3xl md:text-5xl font-extrabold text-center text-blue-700 mb-8">Contact Us</h1>
+
+        <section class="grid grid-cols-1">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl md:text-4xl font-bold text-blue-600 mb-4">Get in Touch</h2>
+                <p class="text-gray-700 mb-4 text-xl">Have questions, feedback, or need assistance? Reach out to us through the
+                    following channels:</p>
+
+                <div class="mb-3">
+                    <p class="font-semibold text-gray-800 text-xl">Phone:</p>
+                    <a href="tel:+919013138811" class="text-blue-600 hover:underline text-xl">+91 9013138811</a>
+                </div>
+                <div class="mb-3 flex items-center gap-2 text-xl">
+                    <p class="font-semibold text-gray-800">WhatsApp:</p>
+                    <a href="https://wa.me/+919013138811?text=Hi%20PharmaCity%20I%20have%20a%20question."
+                        target="_blank" class="text-green-600 hover:underline text-xl flex items-center gap-1">
+                        <img src="/images/gwhatsapp.png">
+                        Chat on WhatsApp
+                    </a>
+                </div>
+                <div class="mb-3">
+                    <p class="font-semibold text-gray-800 text-xl">Email:</p>
+                    <a href="mailto:pharmacity0555@gmail.com"
+                        class="text-blue-600 hover:underline text-xl">pharmacity0555@gmail.com</a>
+                </div>
+                <div class="mb-3">
+                    <p class="font-semibold text-gray-800 text-xl">Address:</p>
+                    <p class="text-gray-700 text-xl">MNAWALPUR Basahi, Sindhora Rd, Sector -B, Ekta Nagar Colony, Varanasi, Lalpur, Uttar Pradesh 221003, India</p>
+                </div>
+                <div class="mb-3">
+                    <p class="font-semibold text-gray-800 text-xl">Operating Hours:</p>
+                    <p class="text-gray-700 text-xl">Monday - Sunday: 6:30 AM - 11:30 PM</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-3xl md:text-5xl font-bold text-blue-600 mb-4 text-center">Find Us on the Map</h2>
+            <div class="aspect-w-16 aspect-h-9 w-full">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.125346506748!2d82.974238!3d25.367115199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2d0782a5ccf3%3A0x6f43a7dbb241f602!2sPharma%20City%20Varanasi!5e0!3m2!1sen!2sin!4v1747942852152!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="rounded-lg"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-8 text-center text-gray-700 text-sm bg-gray-100">
+        <p>© 2025 MedCare Pharmacy. All rights reserved.</p>
+        <p class="mt-2">Your trusted partner for health and wellness.</p>
+        <div class="flex justify-center space-x-6 mt-4">
+            <a href="#" class="text-gray-600 hover:text-blue-500 transition duration-300">Facebook</a>
+            <a href="#" class="text-gray-600 hover:text-blue-400 transition duration-300">Twitter</a>
+            <a href="#" class="text-gray-600 hover:text-pink-500 transition duration-300">Instagram</a>
+        </div>
+    </footer>
 </body>
+
 </html>
