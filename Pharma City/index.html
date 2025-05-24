@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MedCare Pharmacy - Your Health Partner</title>
+</head>
+
+<body>
+    <header
+        class="hidden md:flex px-3 py-4 md:px-10 md:py-4 justify-between items-center bg-blue-500/30 backdrop-blur-md sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#welcome" class="text-xl md:text-2xl font-bold text-blue-800">MedCare Pharmacy</a>
+            <div class="flex space-x-4">
+                <a class="px-2 py-1 text-xs md:px-5 md:py-2 md:text-base bg-blue-500 hover:bg-blue-700 text-white rounded-lg transition duration-300 inline-block"
+                    href="#welcome">Home</a>
+                <a class="px-3 py-2 text-sm md:px-5 md:py-2 md:text-base bg-blue-500 hover:bg-blue-700 text-white rounded-lg transition duration-300 inline-block"
+                    href="#order">Order Medicines</a>
+                <a class="px-3 py-2 text-sm md:px-5 md:py-2 md:text-base bg-blue-500 hover:bg-blue-700 text-white rounded-lg transition duration-300 inline-block"
+                    href="#contact">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-3 md:p-10">
+        <section id="welcome"
+            class="bg-blue-100 p-5 md:p-8 rounded-lg shadow-lg mb-5 md:mb-8 max-w-4xl mx-auto text-center">
+            <h1 class="text-xl md:text-5xl font-extrabold text-blue-800 mb-2 md:mb-4">Welcome to MedCare Pharmacy!</h1>
+            <p class="text-sm md:text-xl text-gray-700"> Your trusted partner for all your health and wellness needs. We
+                are committed to providing quality medicines and exceptional service.
+            </p>
+        </section>
+
+        <section class="py-3 md:py-8"> <img src="images/logo.png" alt="MedCare Pharmacy Logo"
+                class="mx-auto w-1/2 sm:w-1/3 md:w-1/4 h-auto max-w-xs object-contain">
+        </section>
+
+        <section
+            class="flex flex-col md:flex-row items-center justify-center p-3 md:p-5 border shadow-lg rounded-lg mb-5 md:mb-5 md:max-w-3xl mx-auto gap-4 md:gap-8">
+            <div class="text-center md:text-left">
+                <h2 class="text-lg md:text-4xl font-extrabold mb-2 text-blue-700">Our Timings</h2>
+                <p class="text-xs md:text-2xl font-semibold text-gray-800">Open from
+                    <span class="text-blue-600">6:30 AM</span> to <span class="text-blue-600">11:30 PM</span> with <br
+                        class="md:hidden">
+                    <span class="text-red-600">24/7 Emergency Service</span>
+                </p>
+            </div>
+            <img src="./images/247Em.png" alt="24/7 Emergency Service Icon"
+                class="w-24 h-24 md:w-48 md:h-48 object-contain flex-shrink-0">
+        </section>
+
+        <section
+            class="flex flex-col md:flex-row items-center justify-center p-3 md:p-5 border shadow-lg rounded-lg mb-5 md:mb-5 md:max-w-3xl mx-auto gap-4 md:gap-20">
+            <img src="./images/truck.png" alt="Free Delivery Truck Icon"
+                class="w-32 h-32 md:w-52 md:h-52 object-contain flex-shrink-0">
+            <div class="text-center md:text-left">
+                <p class="text-lg md:text-4xl font-bold mb-2">Free delivery available</p> <a href="#order">
+                    <button class="btn">Order Now</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="order">
+            <h1 class="text-xl md:text-5xl font-extrabold text-blue-700 mb-5 mt-5 md:mb-8 md:mt-8 text-center">Order
+                Your Medicines via WhatsApp</h1>
+            <div class="bg-white p-5 md:p-8 rounded-lg shadow-lg mb-5 md:mb-8 max-w-2xl mx-auto">
+                <h2 class="text-lg md:text-2xl font-bold text-green-600 mb-2 md:mb-4">Quick & Easy Ordering!</h2>
+                <p class="text-sm md:text-base text-gray-700 mb-4 md:mb-6"> To place an order or send your prescription,
+                    simply click the button below to chat with us directly on
+                    WhatsApp.
+                </p>
+                <a href="https://wa.me/919013138811?text=Hi%20MedCare%20Pharmacy,%20I%20would%20like%20to%20order%20medicines."
+                    target="_blank"
+                    class="inline-flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full text-base shadow-lg transform transition duration-300 hover:scale-105 gap-1.5 max-w-sm mx-auto">
+                    <img class="w-5 h-5" src="images/whatsapp-16.png" alt="WhatsApp Icon"> Order via WhatsApp
+                </a>
+                <p class="text-xs text-gray-500 mt-2 md:mt-4">You can send text messages, photos of prescriptions, or
+                    ask any
+                    questions.</p>
+            </div>
+
+            <div class="bg-blue-50 p-4 md:p-6 rounded-lg shadow-lg text-center max-w-2xl mx-auto mb-5 md:mb-8">
+                <h2 class="text-lg md:text-3xl font-bold text-red-700 mb-2 md:mb-4">Enjoy Free Delivery!</h2>
+                <p class="text-sm text-blue-800">We offer free delivery on all orders. Get your medicines delivered
+                    right to your doorstep!</p>
+                <p class="text-xs text-blue-600 mt-1 md:mt-2">For any questions about your order, please <a
+                        href="#contact" class="text-red-600 hover:underline">contact us</a>.</p>
+            </div>
+
+        </section>
+
+
+        <section id="contact">
+            <h1 class="text-xl md:text-5xl font-extrabold text-center text-blue-700 mb-5 mt-5 md:mb-8 md:mt-8">Contact
+                Us</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mb-5 md:mb-8">
+                <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg">
+                    <h2 class="text-lg md:text-4xl font-bold text-blue-600 mb-2 md:mb-4">Get in Touch</h2>
+                    <p class="text-sm text-gray-700 mb-3 md:mb-4">Have questions, feedback, or need assistance? Reach
+                        out to us through the
+                        following channels:</p>
+
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Phone:</p> <a href="tel:+919013138811"
+                            class="text-blue-600 hover:underline text-sm">+91 9013138811</a>
+                    </div>
+                    <div class="mb-1.5 flex items-center gap-1 text-sm">
+                        <p class="font-semibold text-gray-800">WhatsApp:</p>
+                        <a href="https://wa.me/+919013138811?text=Hi%20PharmaCity%20I%20have%20a%20question."
+                            target="_blank" class="text-green-600 hover:underline text-sm flex items-center gap-1"> <img
+                                src="images/gwhatsapp.png" alt="WhatsApp Icon" class="w-4 h-4"> Chat on WhatsApp
+                        </a>
+                    </div>
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Email:</p> <a
+                            href="mailto:pharmacity0555@gmail.com"
+                            class="text-blue-600 hover:underline text-sm">pharmacity0555@gmail.com</a>
+                    </div>
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Address:</p>
+                        <p class="text-gray-700 text-sm">NAWALPUR Basahi, Sindhora Rd, Sector -B, Ekta Nagar Colony,
+                            Varanasi, Lalpur, Uttar Pradesh 221003, India</p>
+                    </div>
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Operating Hours:</p>
+                        <p class="text-gray-700 text-sm">Monday - Sunday: 6:30 AM - 11:30 PM</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl md:text-5xl font-bold text-blue-600 mb-3 md:mb-4 text-center">Find Us on the Map
+                    </h2>
+                    <div class="aspect-w-16 aspect-h-9 w-full">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.125346506748!2d82.974238!3d25.367115199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2d0782a5ccf3%3A0x6f43a7dbb241f602!2sPharma%20City%20Varanasi!5e0!3m2!1sen!2sin!4v1747942852152!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="rounded-lg"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5 text-center text-gray-700 text-xs bg-gray-100">
+        <p>© 2025 MedCare Pharmacy. All rights reserved.</p>
+        <p class="mt-1.5">Your trusted partner for health and wellness.</p>
+        <div class="flex justify-center space-x-3 mt-2"> <a href="#"
+                class="text-gray-600 hover:text-blue-500 transition duration-300">Facebook</a>
+            <a href="#" class="text-gray-600 hover:text-blue-400 transition duration-300">Twitter</a>
+            <a href="#" class="text-gray-600 hover:text-pink-500 transition duration-300">Instagram</a>
+        </div>
+    </footer>
+</body>
+
+</html>
