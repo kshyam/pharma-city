@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Pharma City - Your Health Partner</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true });
+    </script>
+    <header
+        class="hidden md:flex px-3 py-4 md:px-10 md:py-4 justify-between items-center bg-blue-600/80 backdrop-blur-md sticky top-0 z-50 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#welcome" class="text-xl md:text-2xl font-bold text-white">Pharma City</a>
+            <div class="flex space-x-4">
+                <a class="px-2 py-1 text-xs md:px-5 md:py-2 md:text-base bg-blue-700 hover:bg-blue-800 text-white rounded-lg transition duration-300 inline-block"
+                    href="#welcome">Home</a>
+                <a class="px-3 py-2 text-sm md:px-5 md:py-2 md:text-base bg-blue-700 hover:bg-blue-800 text-white rounded-lg transition duration-300 inline-block"
+                    href="#order">Order Medicines</a>
+                <a class="px-3 py-2 text-sm md:px-5 md:py-2 md:text-base bg-blue-700 hover:bg-blue-800 text-white rounded-lg transition duration-300 inline-block"
+                    href="#contact">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto p-3 md:p-10">
+        <section id="welcome"
+            class="flex flex-col md:flex-row items-center p-5 md:p-8 rounded-lg shadow-lg mb-8 bg-gradient-to-r from-red-600/80 to-red-800">
+            <img src="images/main-removebg-preview.png" alt="Online Pharmacy Healthcare Banner"
+                class="hidden md:block md:w-1/3 rounded-lg mr-0 md:mr-8 mb-4 md:mb-0 object-cover h-64 md:h-80">
+            <div class="text-center md:text-left w-full md:w-2/3">
+                <h1 class="text-xl md:text-5xl font-extrabold text-white mb-2 md:mb-4">Welcome to Pharma City!</h1>
+                <p class="text-sm md:text-xl text-white"> Your trusted partner for all your health and wellness needs.
+                    We are committed to providing quality medicines and exceptional service.
+                </p>
+            </div>
+        </section>
+
+        <img src="images/main-removebg-preview.png" alt="Online Pharmacy Healthcare Banner"
+            class="md:hidden w-2/3 mx-auto rounded-lg mb-4 object-cover h-64">
+
+        <section id="timings"
+            class="flex flex-col md:flex-row items-center justify-between p-6 md:p-10 rounded-xl shadow-lg mb-8 bg-white mx-auto gap-6 md:gap-12 transform transition-transform duration-300 hover:scale-[1.01]"
+            data-aos="fade-right">
+            <div class="text-center md:text-left flex-grow">
+                <h2 class="text-2xl md:text-5xl font-extrabold mb-3 text-blue-800">Operating Hours</h2>
+                <p class="text-lg md:text-3xl font-bold text-gray-900 leading-tight">
+                    <span class="text-blue-600">Every Day:</span> 6:30 AM to 11:30 PM
+                </p>
+                <p class="text-base md:text-2xl font-bold text-red-600 mt-2">
+                    Rest assured with our 24/7 Emergency Service
+                </p>
+                <p class="text-sm md:text-lg text-gray-700 mt-3">
+                    We are dedicated to providing accessible healthcare whenever you need it, ensuring your well-being
+                    around the clock.
+                </p>
+            </div>
+            <img src="./images/247Em.png" alt="24/7 Emergency Service Icon"
+                class="w-28 h-28 md:w-56 md:h-56 hidden md:block object-contain flex-shrink-0">
+        </section>
+        <section id="offers"
+            class="p-5 md:p-8 lg:p-16 rounded-lg shadow-2xl mb-8 bg-gradient-to-r from-red-600 to-red-800 text-white"
+            data-aos="fade-up">
+            <h1 class="text-xl md:text-5xl font-extrabold text-center mb-4 md:mb-6">Special Offers</h1>
+            <h3 class="text-base md:text-2xl text-center mb-8">Avail special offers on medicines related to:</h3>
+
+            <div class="flex flex-col md:flex-row justify-around items-center gap-6 md:gap-8">
+                <div
+                    class="flex flex-col items-center text-center bg-red-700/70 p-4 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105 w-full md:w-1/3">
+                    <img src="images/cancer.jpeg" alt="Cancer Awareness"
+                        class="w-20 h-20 md:w-50 md:h-50 object-contain mb-2">
+                    <p class="text-lg md:text-xl font-semibold">Cancer Care</p>
+                </div>
+
+                <div
+                    class="flex flex-col items-center text-center bg-red-700/70 p-4 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105 w-full md:w-1/3">
+                    <img src="images/diabities.webp" alt="Diabetes Awareness"
+                        class="w-20 h-20 md:w-24 md:h-24 object-contain mb-2">
+                    <p class="text-lg md:text-xl font-semibold">Diabetes Management</p>
+                </div>
+
+                <div
+                    class="flex flex-col items-center text-center bg-red-700/70 p-4 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 transform hover:scale-105 w-full md:w-1/3">
+                    <img src="https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/8064ecaf697a48998c4cc4f44a740e9e.jpg?dpr=2&format=auto"
+                        alt="Heart Disease Awareness" class="w-20 h-20 md:w-24 md:h-24 object-contain mb-2">
+                    <p class="text-lg md:text-xl font-semibold">Heart Health</p>
+                </div>
+            </div>
+        </section>
+        <section id="order"
+            class="p-5 md:p-8 lg:p-16 rounded-lg shadow-2xl mb-8 bg-blue-800 text-white border-b-8 border-blue-600"
+            data-aos="fade-up">
+            <h1 class="text-xl md:text-5xl font-extrabold mb-5 mt-5 md:mb-8 md:mt-8 text-center">Order
+                Your Medicines via WhatsApp</h1>
+            <div class="grid grid-cols-1 gap-8">
+                <div
+                    class="bg-blue-700 p-5 md:p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 border border-green-400 hover:border-green-500 cursor-pointer">
+                    <div data-aos="fade-up">
+                        <h2 class="text-lg md:text-2xl font-bold text-green-300 mb-2 md:mb-4">Quick & Easy Ordering!
+                        </h2>
+                        <p class="text-sm md:text-base text-white mb-4 md:mb-6"> To place an order or send your
+                            prescription,
+                            simply click the button below to chat with us directly on
+                            WhatsApp.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="https://wa.me/919013138811?text=Hi%20MedCare%20Pharmacy,%20I%20would%20like%20to%20order%20medicines."
+                            target="_blank"
+                            class="inline-flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full text-base shadow-lg transition duration-300 gap-1.5">
+                            <img class="w-5 h-5" src="images/whatsapp-16.png" alt="WhatsApp Icon"> Order via WhatsApp
+                        </a>
+                        <p class="text-xs text-white mt-2 md:mt-4">You can send text messages, photos of prescriptions,
+                            or
+                            ask any questions.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white p-4 md:p-6 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 border border-blue-400 hover:border-blue-500 cursor-pointer">
+                    <div data-aos="fade-down">
+                        <h2 class="text-lg md:text-3xl font-bold text-red-600 mb-2 md:mb-4">Enjoy Free Delivery!</h2>
+                        <p class="text-sm text-blue-700">We offer free delivery on all orders. Get your medicines
+                            delivered
+                            right to your doorstep!</p>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-xs text-blue-600">For any questions about your order, please <a href="#contact"
+                                class="text-red-600 hover:underline">contact us</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" data-aos="fade-up">
+            <h1 class="text-xl md:text-5xl font-extrabold text-center text-blue-800 mb-5 mt-5 md:mb-8 md:mt-8">Contact
+                Us</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mb-8">
+                <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg border border-gray-200" data-aos="fade-right">
+                    <h2 class="text-lg md:text-4xl font-bold text-blue-700 mb-2 md:mb-4">Get in Touch</h2>
+                    <p class="text-sm text-gray-700 mb-3 md:mb-4">Have questions, feedback, or need assistance? Reach
+                        out to us through the
+                        following channels:</p>
+
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Phone:</p> <a href="tel:+919013138811"
+                            class="text-blue-600 hover:underline text-sm">+91 8543032700</a>
+                    </div>
+                    <div class="mb-1.5 flex items-center gap-1 text-sm">
+                        <p class="font-semibold text-gray-800">WhatsApp:</p>
+                        <a href="https://wa.me/+919013138811?text=Hi%20PharmaCity%20I%20have%20a%20question."
+                            target="_blank" class="text-green-600 hover:underline text-sm flex items-center gap-1"> <img
+                                src="images/gwhatsapp.png" alt="WhatsApp Icon" class="w-4 h-4"> Chat on WhatsApp
+                        </a>
+                    </div>
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Email:</p> <a
+                            href="mailto:pharmacity0555@gmail.com"
+                            class="text-blue-600 hover:underline text-sm">pharmacity0555@gmail.com</a>
+                    </div>
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Address:</p>
+                        <p class="text-gray-700 text-sm">NAWALPUR Basahi, Sindhora Rd, Sector -B, Ekta Nagar Colony,
+                            Varanasi, Lalpur, Uttar Pradesh 221003, India</p>
+                    </div>
+                    <div class="mb-1.5">
+                        <p class="font-semibold text-gray-800 text-sm">Operating Hours:</p>
+                        <p class="text-gray-700 text-sm">Monday - Sunday: 6:30 AM - 11:30 PM</p>
+                    </div>
+                </div>
+                <div class="bg-white p-4 md:p-6 rounded-lg shadow-lg border border-gray-200" data-aos="fade-down">
+                    <h2 class="text-xl md:text-5xl font-bold text-blue-700 mb-3 md:mb-4 text-center">Find Us on the Map
+                    </h2>
+                    <div class="aspect-w-16 aspect-h-9 w-full">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3605.1249474127926!2d82.97158077538735!3d25.367128577601967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDIyJzAxLjciTiA4MsKwNTgnMjcuMCJF!5e0!3m2!1sen!2sin!4v1748260601459!5m2!1sen!2sin"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5 text-center text-gray-700 text-xs bg-gray-100 mt-8">
+        <p>© 2025 Pharma City. All rights reserved.</p>
+        <p class="mt-1.5">Your trusted partner for health and wellness.</p>
+        <div class="flex justify-center space-x-3 mt-2"> <a href="#"
+                class="text-gray-600 hover:text-blue-500 transition duration-300">Facebook</a>
+            <a href="#" class="text-gray-600 hover:text-blue-400 transition duration-300">Twitter</a>
+            <a href="#" class="text-gray-600 hover:text-pink-500 transition duration-300">Instagram</a>
+        </div>
+    </footer>
+</body>
+
+</html>
