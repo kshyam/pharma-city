@@ -1,1 +1,169 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+.operating-hours-content {
+    /* Base styles (mobile first, derived from w-full, text-center, p-6, text-gray-800, min-h-[400px], pt-[250px], pb-20) */
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    /* p-6 */
+    color: #4a5568;
+    /* text-gray-800 */
+    min-height: 400px;
+    /* min-h-[400px] */
+    padding-top: 250px;
+    /* pt-[250px] */
+    padding-bottom: 80px;
+    /* pb-20 */
+
+    /* Background styles (mobile first, derived from bg-[url], bg-no-repeat, bg-cover, bg-[position:center_bottom]) */
+    background-image: url('images/operating_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* Small breakpoint (sm) - for sm:p-8 */
+@media (min-width: 640px) {
+    .operating-hours-content {
+        padding: 2rem;
+        /* sm:p-8 */
+    }
+}
+
+/* Medium breakpoint (md) - for md:min-h, md:pt, md:pb, md:bg-size, md:bg-position */
+@media (min-width: 768px) {
+    .operating-hours-content {
+        min-height: 350px;
+        /* md:min-h-[350px] */
+        padding-top: 10px;
+        /* md:pt-[10px] */
+        padding-bottom: 8px;
+        /* md:pb-6 */
+
+        background-size: 50% auto;
+        /* md:bg-[size:100%_auto] */
+        background-position: center top;
+        /* md:bg-[position:center_top] */
+    }
+}
+
+/* Large breakpoint (lg) - for lg:min-h, lg:pt, lg:pb, lg:bg-size, lg:bg-position */
+@media (min-width: 1024px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 270px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 70%;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
+
+@media (min-width: 1095px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 300px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 70%;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
+
+@media (min-width: 1173px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 260px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 60%;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
+
+@media (min-width: 1215px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 280px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 60%;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
+
+@media (min-width: 1300px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 290px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 60%;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
+
+@media (min-width: 1335px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 310px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 60%;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
+
+@media (min-width: 1405px) {
+    .operating-hours-content {
+        min-height: 600px;
+        max-height: 600px;
+        /* lg:min-h-[400px] */
+        padding-top: 270px;
+        /* lg:pt-[310px] */
+        padding-bottom: 32px;
+        /* lg:pb-8 */
+
+        background-size: 50% auto;
+        /* lg:bg-[size:60%_auto] */
+        background-position: center top;
+        /* lg:bg-[position:center_top] */
+    }
+}
